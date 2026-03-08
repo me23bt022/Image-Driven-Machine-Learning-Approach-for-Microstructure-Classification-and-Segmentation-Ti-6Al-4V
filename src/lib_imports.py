@@ -13,6 +13,7 @@ import tensorflow as tf
 from tensorflow import keras
 import os.path
 import random
+tf.get_logger().setLevel('ERROR')
 
 
 # Keras (correct modern imports)
